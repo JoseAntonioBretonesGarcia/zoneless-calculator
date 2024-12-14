@@ -1,3 +1,8 @@
-<button [class.is-command]="isCommand()">
+<button
+  [class.is-pressed]="isPressed()"
+  [class.is-command]="isCommand()"
+  #button
+  (click)="handleClick()"
+>
   <ng-content />
 </button>

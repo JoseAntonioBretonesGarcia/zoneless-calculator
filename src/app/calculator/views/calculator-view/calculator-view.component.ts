@@ -7,5 +7,6 @@ import { CalculatorComponent } from '@app/calculator/components/calculator/calcu
   imports: [CalculatorComponent],
   templateUrl: './calculator-view.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  host: { class: 'min-w-[300px] sm:min-w-[350px]' },
 })
 export default class CalculatorViewComponent {}
