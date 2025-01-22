@@ -34,7 +34,7 @@ export class CalculatorService {
         result = number1 / number2;
         break;
       case '%':
-        result = number1 % number2;
+        result = number2 / 100;
         break;
     }
 
@@ -109,9 +109,9 @@ export class CalculatorService {
   public constructNumber(value: string): void {
     // Valid if the input exists in the characters arrays
     if (!this.isValidInput(value)) return;
-
     //  =
-    if (value === '=') {
+    if (value === '=' || value === '%') {
+      if (value === '%') this.lastOperator.set(value);
       this.calculateResult();
       return;
     }
