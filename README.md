@@ -2,6 +2,43 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
+## About
+Tailwind,
+Zoneless,
+OnPush,
+ViewEncapsulation,
+ng-deep (Deprecared),
+Content Projection,
+input Signals,
+Standalone components,
+Angular Schematics,
+Host bindings,
+Host Property - Condicional,
+Remover Hostlisterners y HostBindings,
+Output Emitter Refs,
+Signals ViewChild,
+Signal ViewChildren,
+Servicios with signals,
+Computed Signals
+
+## About testing
+Bit introduction to testing,
+AAA pattern (Arrange-Act-Assert),
+Unitary,
+Integration,
+E2E,
+Karma - Jasmine,
+Testing on Zoneless apps,
+General HTML testing,
+Components tests,
+Spies,
+Mocks,
+Mock service implementation,
+Done Function,
+Pruebas en señales,
+Simular document events,
+Global KeyPress
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
