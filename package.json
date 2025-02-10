@@ -30,6 +30,7 @@
     "@angular-devkit/schematics": "^18.2.12",
     "@angular/cli": "^18.2.12",
     "@angular/compiler-cli": "^18.2.0",
+    "@netlify/angular-runtime": "^2.2.1",
     "@nx/angular": "20.4.0",
     "@nx/workspace": "20.4.0",
     "@schematics/angular": "^18.2.12",
